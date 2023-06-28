@@ -1,0 +1,96 @@
+ header{
+    background-image: url(./pic/header.jpg);
+    background-image: linear-gradient(90deg, #5e5c5cde 0%, #9dc5c3d0 40%, transparent 40%), url("pic/header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+   height:90vh;
+   font-family:'Segoe UI' ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ ul{
+    z-index: 5;
+    display: flex;
+      margin-left: 70vh;
+     list-style: none;
+     font-size: 20px;
+ }
+ li{
+    padding-left: 35px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 7px;
+    cursor: pointer;
+   margin-left: 30px;
+ }
+ .home{
+    background-color:#0db4ac ;
+    border-radius: 14px;
+    padding: 8px;
+    width: 120px;
+    text-align: center;
+    justify-content: center;
+ }
+ .home:hover{
+    background-color: #0c504c;
+ }
+ .acc:hover{
+  border-bottom: #0db4ac solid 4px;
+  transition: .5s;
+ }
+ .catgeo:hover{
+    border-bottom: #0db4ac solid 4px;
+    transition: .5s;
+ }
+ .log:hover{
+    border-bottom: #0db4ac solid 4px;
+    transition: .5s;
+ }
+.gradienteleman{
+    background-image: linear-gradient(90deg, #5e5c5c8f 0%, #9dc5c3ae 40%, transparent 40%);
+   
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    position: absolute;
+    top: 0;
+    color: white;
+}
+h1{
+    width:  500px;
+     position: absolute;
+     top: 200px;
+     left: 50px;
+     text-align: center;
+     justify-content: center;
+}
+ h2{
+    position: absolute;
+    top: 500px;
+    left: 90px;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #0db4ac;
+    border-radius: 7px;
+}
+h2:hover{
+    background-color: #0c504c;
+}
+p{
+    position: absolute;
+    top: 320px;
+    width: 450px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align:  start;
+    justify-content:  start;
+    left: 90px;
+}
